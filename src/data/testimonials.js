@@ -1,0 +1,38 @@
+export const TESTIMONIALS = [
+  {
+    id: "review-1",
+    quote: "Really happy with her work. She understood the issue quickly and got it sorted. Very easy to work with!",
+    author: "Upwork client",
+    projectType: "Full Stack & Web Troubleshooting",
+    rating: 5,
+    platform: "Upwork",
+    verified: true,
+  },
+  {
+    id: "review-2",
+    quote: "Great work! She quickly identified what was wrong with my order form and helped get it sorted. Professional and easy to work with. Highly recommend.",
+    author: "Upwork client",
+    projectType: "Web Development & Form Logic",
+    rating: 5,
+    platform: "Upwork",
+    verified: true,
+  },
+  {
+    id: "review-3",
+    quote: "Really impressed with how quickly she got the order screen added to my mobile app. She understood what I needed and got it done without making the process complicated.",
+    author: "Upwork client",
+    projectType: "Mobile App Development",
+    rating: 5,
+    platform: "Upwork",
+    verified: true,
+  },
+  {
+    id: "review-4",
+    quote: "Great experience working with this freelancer. They reviewed my GitHub codebase carefully, identified areas that needed improvement, and gave clear, helpful feedback.",
+    author: "Upwork client",
+    projectType: "Code Review & Technical Audit",
+    rating: 5,
+    platform: "Upwork",
+    verified: true,
+  },
+];
