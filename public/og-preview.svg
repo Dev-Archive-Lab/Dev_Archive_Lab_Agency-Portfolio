@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#050B1F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a1535;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F5B83D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8A020;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="glow1" cx="30%" cy="40%" r="50%">
+      <stop offset="0%" style="stop-color:#0A5CFF;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#0A5CFF;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="glow2" cx="75%" cy="65%" r="40%">
+      <stop offset="0%" style="stop-color:#22D3EE;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#22D3EE;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect width="1200" height="630" fill="url(#glow1)" />
+  <rect width="1200" height="630" fill="url(#glow2)" />
+
+  <!-- Subtle grid lines -->
+  <g opacity="0.04" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="105" x2="1200" y2="105"/>
+    <line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="420" x2="1200" y2="420"/>
+    <line x1="0" y1="525" x2="1200" y2="525"/>
+    <line x1="150" y1="0" x2="150" y2="630"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="450" y1="0" x2="450" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="750" y1="0" x2="750" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+    <line x1="1050" y1="0" x2="1050" y2="630"/>
+  </g>
+
+  <!-- Top gold accent bar -->
+  <rect x="80" y="60" width="120" height="4" rx="2" fill="url(#gold)" />
+
+  <!-- Logo placeholder - D letter mark -->
+  <g transform="translate(80, 90)">
+    <rect width="72" height="72" rx="14" fill="#0A5CFF" opacity="0.15" />
+    <rect width="72" height="72" rx="14" fill="none" stroke="#0A5CFF" stroke-width="1.5" opacity="0.4" />
+    <text x="36" y="52" font-family="Georgia, serif" font-size="42" font-weight="bold" fill="#0A5CFF" text-anchor="middle">D</text>
+  </g>
+
+  <!-- Brand name -->
+  <text x="168" y="118" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="600" fill="#ffffff" letter-spacing="1">Dev Archive Lab</text>
+  <text x="168" y="145" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#64748B" letter-spacing="2">STUDIO</text>
+
+  <!-- Main headline -->
+  <text x="80" y="250" font-family="'Segoe UI', Arial, sans-serif" font-size="58" font-weight="800" fill="#ffffff" letter-spacing="-1">Full Stack. Design.</text>
+  <text x="80" y="320" font-family="'Segoe UI', Arial, sans-serif" font-size="58" font-weight="800" fill="url(#gold)" letter-spacing="-1">AI Automation.</text>
+
+  <!-- Tagline -->
+  <text x="80" y="390" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="#94A3B8" letter-spacing="0.3">Websites · Apps · AI Systems · Design · Growth</text>
+
+  <!-- Divider -->
+  <rect x="80" y="430" width="1040" height="1" fill="#ffffff" opacity="0.08" />
+
+  <!-- Bottom strip -->
+  <text x="80" y="478" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#64748B">Founded by Victoria · Remote, working worldwide · Direct 1-on-1</text>
+
+  <!-- Right pill badges -->
+  <rect x="820" y="220" width="300" height="48" rx="24" fill="#0A5CFF" opacity="0.12" />
+  <rect x="820" y="220" width="300" height="48" rx="24" fill="none" stroke="#0A5CFF" stroke-width="1" opacity="0.4" />
+  <text x="970" y="251" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#22D3EE" text-anchor="middle" font-weight="600">100% Job Success · Upwork</text>
+
+  <rect x="820" y="284" width="300" height="48" rx="24" fill="#F5B83D" opacity="0.08" />
+  <rect x="820" y="284" width="300" height="48" rx="24" fill="none" stroke="#F5B83D" stroke-width="1" opacity="0.4" />
+  <text x="970" y="315" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#F5B83D" text-anchor="middle" font-weight="600">★★★★★ 5.0 Client Rating</text>
+
+  <rect x="820" y="348" width="300" height="48" rx="24" fill="#ffffff" opacity="0.03" />
+  <rect x="820" y="348" width="300" height="48" rx="24" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.1" />
+  <text x="970" y="379" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#94A3B8" text-anchor="middle" font-weight="600">11 Specialized Services</text>
+
+  <!-- URL -->
+  <text x="1120" y="478" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#0A5CFF" text-anchor="end" font-weight="600">devarchivelab.com</text>
+</svg>

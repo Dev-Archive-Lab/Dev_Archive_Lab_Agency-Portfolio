@@ -167,15 +167,15 @@ export default function Contact() {
     <>
       <Helmet>
         <title>Request a Quote | Dev Archive Lab</title>
-        <meta
-          name="description"
-          content="Request a fixed quote for your website, app, AI automation, or design build. Victoria replies within 1 hour with a clear proposal."
-        />
+        <link rel="canonical" href="https://devarchivelab.com/contact" />
+        <meta name="description" content="Request a fixed quote for your website, app, AI automation, or design build. Victoria replies within 1 hour with a clear proposal." />
         <meta property="og:title" content="Request a Quote | Dev Archive Lab" />
-        <meta
-          property="og:description"
-          content="Tell Victoria what you need built. Fixed quotes based on your project scope, direct 1-on-1 collaboration."
-        />
+        <meta property="og:description" content="Tell Victoria what you need built. Fixed quotes based on your project scope, direct 1-on-1 collaboration." />
+        <meta property="og:url" content="https://devarchivelab.com/contact" />
+        <meta property="og:image" content="https://devarchivelab.com/og-preview.png" />
+        <meta name="twitter:title" content="Request a Quote | Dev Archive Lab" />
+        <meta name="twitter:description" content="Tell Victoria what you need built. Fixed quotes, direct 1-on-1 collaboration." />
+        <meta name="twitter:image" content="https://devarchivelab.com/og-preview.png" />
       </Helmet>
 
       <div className="relative pt-6 pb-24 overflow-hidden">

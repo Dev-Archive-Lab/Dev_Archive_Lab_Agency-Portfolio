@@ -46,15 +46,15 @@ export default function About() {
     <>
       <Helmet>
         <title>About Victoria &amp; Dev Archive Lab | Founder &amp; Studio</title>
-        <meta
-          name="description"
-          content="Meet Victoria, founder of Dev Archive Lab. A solo full stack developer and digital creative backed by a trusted network of vetted specialists."
-        />
+        <link rel="canonical" href="https://devarchivelab.com/about" />
+        <meta name="description" content="Meet Victoria, founder of Dev Archive Lab. A solo full stack developer and digital creative backed by a trusted network of vetted specialists." />
         <meta property="og:title" content="About Victoria &amp; Dev Archive Lab" />
-        <meta
-          property="og:description"
-          content="Dev Archive Lab is a one-woman studio built around a simple idea: great digital work should feel easy to get."
-        />
+        <meta property="og:description" content="Dev Archive Lab is a one-woman studio built around a simple idea: great digital work should feel easy to get." />
+        <meta property="og:url" content="https://devarchivelab.com/about" />
+        <meta property="og:image" content="https://devarchivelab.com/og-preview.png" />
+        <meta name="twitter:title" content="About Victoria &amp; Dev Archive Lab | Founder &amp; Studio" />
+        <meta name="twitter:description" content="Dev Archive Lab is a one-woman studio built around a simple idea: great digital work should feel easy to get." />
+        <meta name="twitter:image" content="https://devarchivelab.com/og-preview.png" />
       </Helmet>
 
       <div className="relative pt-6 pb-24 overflow-hidden">

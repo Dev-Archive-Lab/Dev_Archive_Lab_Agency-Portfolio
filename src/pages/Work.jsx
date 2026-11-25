@@ -37,15 +37,15 @@ export default function Work() {
     <>
       <Helmet>
         <title>Work &amp; Concept Architecture | Dev Archive Lab</title>
-        <meta
-          name="description"
-          content="Explore web development, mobile apps, AI automations, video storyboards, and digital growth projects by Dev Archive Lab."
-        />
+        <link rel="canonical" href="https://devarchivelab.com/work" />
+        <meta name="description" content="Explore web development, mobile apps, AI automations, video storyboards, and digital growth projects by Dev Archive Lab." />
         <meta property="og:title" content="Work &amp; Concept Architecture | Dev Archive Lab" />
-        <meta
-          property="og:description"
-          content="Explore concept architectures and builds across 7 digital categories engineered by Victoria."
-        />
+        <meta property="og:description" content="Explore concept architectures and builds across 7 digital categories engineered by Victoria." />
+        <meta property="og:url" content="https://devarchivelab.com/work" />
+        <meta property="og:image" content="https://devarchivelab.com/og-preview.png" />
+        <meta name="twitter:title" content="Work &amp; Concept Architecture | Dev Archive Lab" />
+        <meta name="twitter:description" content="Explore concept architectures across web, mobile, AI, video and digital growth." />
+        <meta name="twitter:image" content="https://devarchivelab.com/og-preview.png" />
       </Helmet>
 
       <div className="relative pt-6 pb-24 overflow-hidden">

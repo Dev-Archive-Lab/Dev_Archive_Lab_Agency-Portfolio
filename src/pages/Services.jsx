@@ -46,15 +46,15 @@ export default function Services() {
     <>
       <Helmet>
         <title>Services | Dev Archive Lab</title>
-        <meta
-          name="description"
-          content="Explore our 11 digital services: Web Development, Mobile Apps, AI Automation, Design, SEO, and Social Growth. Request a fixed quote with direct founder delivery."
-        />
+        <link rel="canonical" href="https://devarchivelab.com/services" />
+        <meta name="description" content="Explore our 11 digital services: Web Development, Mobile Apps, AI Automation, Design, SEO, and Social Growth. Request a fixed quote with direct founder delivery." />
         <meta property="og:title" content="Services | Dev Archive Lab" />
-        <meta
-          property="og:description"
-          content="11 specialized services, one dedicated studio. Direct 1-on-1 collaboration with founder Victoria backed by trusted specialists."
-        />
+        <meta property="og:description" content="11 specialized services, one dedicated studio. Direct 1-on-1 collaboration with founder Victoria backed by trusted specialists." />
+        <meta property="og:url" content="https://devarchivelab.com/services" />
+        <meta property="og:image" content="https://devarchivelab.com/og-preview.png" />
+        <meta name="twitter:title" content="Services | Dev Archive Lab" />
+        <meta name="twitter:description" content="11 specialized services, one dedicated studio. Direct 1-on-1 with founder Victoria." />
+        <meta name="twitter:image" content="https://devarchivelab.com/og-preview.png" />
       </Helmet>
 
       <div className="relative pt-6 pb-24 overflow-hidden">

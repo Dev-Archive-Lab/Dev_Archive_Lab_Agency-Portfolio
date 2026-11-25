@@ -15,15 +15,15 @@ export default function Home() {
     <>
       <Helmet>
         <title>Dev Archive Lab | Full Stack, Design &amp; AI Automation Studio</title>
-        <meta
-          name="description"
-          content="We build websites, apps and AI systems that win you clients. Led by founder Victoria, remote worldwide. 100% Job Success on Upwork, 5.0 client rating."
-        />
+        <link rel="canonical" href="https://devarchivelab.com/" />
+        <meta name="description" content="We build websites, apps and AI systems that win you clients. Led by founder Victoria, remote worldwide. 100% Job Success on Upwork, 5.0 client rating." />
         <meta property="og:title" content="Dev Archive Lab | Full Stack, Design &amp; AI Automation Studio" />
-        <meta
-          property="og:description"
-          content="We build websites, apps and AI systems that win you clients. Direct 1-on-1 with founder Victoria, backed by a trusted network of specialists."
-        />
+        <meta property="og:description" content="We build websites, apps and AI systems that win you clients. Direct 1-on-1 with founder Victoria, backed by a trusted network of specialists." />
+        <meta property="og:url" content="https://devarchivelab.com/" />
+        <meta property="og:image" content="https://devarchivelab.com/og-preview.png" />
+        <meta name="twitter:title" content="Dev Archive Lab | Full Stack, Design &amp; AI Automation Studio" />
+        <meta name="twitter:description" content="We build websites, apps and AI systems that win you clients." />
+        <meta name="twitter:image" content="https://devarchivelab.com/og-preview.png" />
       </Helmet>
 
       <div className="relative">

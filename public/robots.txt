@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://devarchivelab.com/sitemap.xml

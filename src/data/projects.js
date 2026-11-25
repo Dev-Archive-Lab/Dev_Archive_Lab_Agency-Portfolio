@@ -185,4 +185,4 @@ export const PROJECTS = [
   },
 ];
 
-export const WORK_NOTE = "Real client case studies are added as projects are completed. All concepts shown above represent actual architectural, design, and automation capabilities.";
+export const WORK_NOTE = "These are sample concept projects. Real client case studies are added as projects are completed.";
