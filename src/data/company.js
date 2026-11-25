@@ -13,7 +13,7 @@ export const COMPANY_INFO = {
   
   // Endpoint for form submissions (e.g. Formspree, FormSubmit, Basin).
   // If empty, the contact form falls back gracefully to a pre-filled mailto: link.
-  FORM_ENDPOINT: "",
+  FORM_ENDPOINT: "https://formspree.io/f/mbgoqbvr",
 
   socials: {
     behance: "https://www.behance.net/victoriaijewere",
